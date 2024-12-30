@@ -1,0 +1,64 @@
+.task2{
+    display: grid;
+    gap: 20px;
+}
+/*task3*/
+.task3{
+    display: flex;
+    
+}
+@media screen (min-width:600px) and(max-width:1500){
+    .task3{
+        flex-wrap: wrap;
+    }
+}
+/*task4*/
+.task4{
+    border: 1px solid lightblue;
+    background-color: white;
+    display: flex;
+    width: 100%;   
+}
+/*task5*/
+.task6 {
+  display: flex;
+}
+/*task7*/
+.task7{
+    display: flex;
+}
+/*task8*/
+.task8{
+  display: flex;
+}
+.task82{ 
+    width: 600px;
+}
+@media(max-width:800){
+    .task8{
+display: flex;
+flex-wrap: wrap;
+}
+}
+/*task9*/
+.task9{
+display: flex;
+ 
+}
+/*task10*/
+.task10{
+   padding: 20px; 
+   margin: 20px;
+   background-color: gray;
+}
+/*task11*/
+.task11{
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+}
+@media(max-width:500px){
+    .task11{
+        display:grid;
+        grid-template-columns: repeat(1,100px);
+    }
+}
